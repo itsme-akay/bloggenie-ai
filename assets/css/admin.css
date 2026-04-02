@@ -1,0 +1,117 @@
+/* BlogGenie AI v2 — Admin CSS */
+.bgai-wrap{max-width:920px;margin:20px 20px 60px 0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+
+/* Header */
+.bgai-header{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:24px;padding-bottom:18px;border-bottom:2px solid #2271b1}
+.bgai-title{font-size:22px;font-weight:700;color:#1d2327;margin:0 0 3px;line-height:1}
+.bgai-ver{font-size:12px;font-weight:400;background:#f0f0f1;color:#646970;padding:2px 8px;border-radius:10px;margin-left:6px;vertical-align:middle}
+.bgai-sub{margin:0;font-size:13px;color:#646970}
+
+/* Badges */
+.bgai-badge{display:inline-flex;align-items:center;gap:5px;font-size:12px;padding:4px 12px;border-radius:12px;font-weight:500}
+.bgai-badge-ok{background:#edfaef;color:#00a32a}
+.bgai-badge-err{background:#fcebec;color:#d63638}
+
+/* Alerts */
+.bgai-alert{padding:11px 16px;border-radius:6px;font-size:13px;margin-bottom:18px;line-height:1.5}
+.bgai-alert a{text-decoration:underline}
+.bgai-alert-ok{background:#edfaef;border-left:3px solid #00a32a;color:#00571b}
+.bgai-alert-warn{background:#fcf9e8;border-left:3px solid #dba617;color:#614200}
+
+/* Run bar */
+.bgai-run-bar{background:#f0f6fc;border:1px solid #c2d4f0;border-radius:8px;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;margin-bottom:20px}
+.bgai-run-label{font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:#2271b1;margin-bottom:4px}
+.bgai-run-time{font-size:16px;font-weight:600;color:#1d2327}
+.bgai-run-btn{background:#2271b1;color:#fff;border:none;padding:12px 28px;border-radius:6px;font-size:14px;font-weight:600;cursor:pointer;transition:background .15s}
+.bgai-run-btn:hover{background:#135e96}
+
+/* Stats */
+.bgai-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:22px}
+.bgai-stat{background:#fff;border:1px solid #dcdcde;border-radius:8px;padding:14px 16px}
+.bgai-stat-l{font-size:11px;text-transform:uppercase;letter-spacing:.4px;color:#646970;margin-bottom:6px}
+.bgai-stat-v{font-size:22px;font-weight:700;color:#1d2327}
+.bgai-ok{color:#00a32a}
+.bgai-err{color:#d63638}
+
+/* Card */
+.bgai-card{background:#fff;border:1px solid #dcdcde;border-radius:8px;padding:22px 26px;margin-bottom:20px}
+.bgai-card-title{font-size:13px;font-weight:600;color:#1d2327;margin:0 0 14px;padding-bottom:10px;border-bottom:1px solid #f0f0f1}
+
+/* Tabs */
+.bgai-tabs{display:flex;gap:2px;margin-bottom:0;border-bottom:2px solid #2271b1}
+.bgai-tab{display:inline-block;padding:9px 18px;font-size:13px;color:#50575e;background:#f0f0f1;border:1px solid #c3c4c7;border-bottom:none;border-radius:4px 4px 0 0;text-decoration:none;transition:all .15s;font-weight:400;margin-right:2px}
+.bgai-tab:hover{background:#e8e8e8;color:#1d2327}
+.bgai-tab-active{background:#2271b1;color:#fff;border-color:#2271b1;font-weight:500}
+.bgai-tab-active:hover{background:#135e96;color:#fff}
+.bgai-tab-panel{border-radius:0 8px 8px 8px;margin-top:0}
+
+/* Table */
+.bgai-table{width:100%;border-collapse:collapse;font-size:13px}
+.bgai-table th{text-align:left;font-size:11px;text-transform:uppercase;letter-spacing:.4px;color:#646970;font-weight:500;padding:0 0 10px}
+.bgai-table td{padding:10px 0;border-top:1px solid #f6f7f7;color:#1d2327;vertical-align:middle}
+.bgai-table a{color:#2271b1;text-decoration:none}
+.bgai-table a:hover{text-decoration:underline}
+.bgai-empty{color:#646970;font-size:13px;margin:0}
+
+/* Buttons */
+.bgai-btn-primary{background:#2271b1;color:#fff;border:none;padding:10px 22px;border-radius:6px;font-size:13px;font-weight:500;cursor:pointer;transition:background .15s}
+.bgai-btn-primary:hover{background:#135e96}
+.bgai-btn-ghost{background:#fff;color:#646970;border:1px solid #dcdcde;padding:8px 14px;border-radius:6px;font-size:12px;cursor:pointer;transition:background .15s}
+.bgai-btn-ghost:hover{background:#f6f7f7}
+
+/* Forms */
+.bgai-field{margin-bottom:18px}
+.bgai-label{display:block;font-size:13px;font-weight:500;color:#1d2327;margin-bottom:6px}
+.bgai-input{width:100%;padding:8px 10px;border:1px solid #8c8f94;border-radius:6px;font-size:13px;color:#1d2327;background:#fff;box-sizing:border-box}
+.bgai-input:focus{border-color:#2271b1;outline:none;box-shadow:0 0 0 1px #2271b1}
+.bgai-mono{font-family:monospace;letter-spacing:.4px}
+select.bgai-input{appearance:auto}
+.bgai-desc{font-size:12px;color:#646970;margin:5px 0 0;line-height:1.5}
+.bgai-grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:8px}
+
+/* API row */
+.bgai-api-row{display:flex;align-items:center;gap:12px;padding:10px 14px;background:#f6f7f7;border-radius:6px;margin-bottom:8px}
+.bgai-link-danger{color:#d63638;font-size:13px;text-decoration:none;cursor:pointer}
+.bgai-link-danger:hover{text-decoration:underline}
+
+/* Keywords */
+.bgai-kw-wrap{display:flex;flex-wrap:wrap;gap:6px;padding:8px 10px;border:1px solid #8c8f94;border-radius:6px;min-height:46px;background:#fff;cursor:text}
+.bgai-kw-wrap:focus-within{border-color:#2271b1;box-shadow:0 0 0 1px #2271b1}
+.bgai-kw-tag{display:inline-flex;align-items:center;gap:4px;background:#e8f0fb;color:#2271b1;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:500}
+.bgai-kw-x{cursor:pointer;font-size:15px;line-height:1;opacity:.7}
+.bgai-kw-x:hover{opacity:1}
+.bgai-kw-input{border:none;outline:none;font-size:13px;min-width:150px;background:transparent;color:#1d2327;padding:2px 0}
+
+/* Toggle switches */
+.bgai-toggle-row{display:flex;align-items:center;justify-content:space-between;padding:13px 0;border-bottom:1px solid #f6f7f7;gap:20px}
+.bgai-toggle-row:last-child{border:none}
+.bgai-toggle-info{flex:1}
+.bgai-toggle-label{display:block;font-size:13px;font-weight:500;color:#1d2327}
+.bgai-toggle-desc{display:block;font-size:12px;color:#646970;margin-top:2px;line-height:1.4}
+.bgai-switch{position:relative;display:inline-block;width:42px;height:24px;flex-shrink:0}
+.bgai-switch input{opacity:0;width:0;height:0}
+.bgai-switch-track{position:absolute;cursor:pointer;inset:0;background:#c3c4c7;border-radius:24px;transition:background .2s}
+.bgai-switch-track::before{content:'';position:absolute;height:18px;width:18px;left:3px;bottom:3px;background:#fff;border-radius:50%;transition:transform .2s}
+.bgai-switch input:checked+.bgai-switch-track{background:#2271b1}
+.bgai-switch input:checked+.bgai-switch-track::before{transform:translateX(18px)}
+
+/* Activity log — NO dots, clean rows */
+.bgai-log-list{display:flex;flex-direction:column}
+.bgai-log-header{display:grid;grid-template-columns:160px 80px 1fr;gap:12px;padding:0 0 8px;border-bottom:1px solid #e2e4e7;font-size:11px;text-transform:uppercase;letter-spacing:.4px;color:#646970;font-weight:500}
+.bgai-log-row{display:grid;grid-template-columns:160px 80px 1fr;gap:12px;padding:9px 0;border-bottom:1px solid #f6f7f7;font-size:12px;align-items:baseline}
+.bgai-log-row:last-child{border:none}
+.bgai-log-time{color:#646970;white-space:nowrap}
+.bgai-log-level{font-size:11px;font-weight:600;letter-spacing:.3px}
+.bgai-log-msg{color:#1d2327;line-height:1.5}
+.bgai-log-success .bgai-log-level{color:#00a32a}
+.bgai-log-error   .bgai-log-level{color:#d63638}
+.bgai-log-warning .bgai-log-level{color:#dba617}
+.bgai-log-info    .bgai-log-level{color:#2271b1}
+
+/* Responsive */
+@media(max-width:700px){
+  .bgai-stats{grid-template-columns:1fr 1fr}
+  .bgai-grid2{grid-template-columns:1fr}
+  .bgai-run-bar{flex-direction:column;gap:12px;align-items:flex-start}
+  .bgai-log-header,.bgai-log-row{grid-template-columns:1fr}
+}
